@@ -1,0 +1,33 @@
+// SID : 2290854
+// Group 10
+
+Title: Textual Feedback Analysis System
+
+1. Introduction
+   Welcome to the Textual Feedback Analysis System README file. This document provides instructions for setting up the system, along with specifications and references.
+
+2. Procedures
+   2.1 Installation
+       - Installation of jdk if you dont have one  to java on you pc
+       - Download the Stanford CORENLP Library in Maven from the (https://stanfordnlp.github.io/CoreNLP/index.html#download)
+       - Install Intellij for the execution of the code in java.
+   2.2 Usage
+       - Since all the dependencies are in the project. We just need to run the code (WelcomeSceen.java). 
+       - I will execute on all the reviews and contain the sentiment results.
+       
+   2.3 Analysis
+       - The system will process the input text data using the Stanford NLP library to perform sentiment analysis.
+       - The results will be displayed on the console and stored in the `predictions.txt` file.
+
+3. System Specifications
+   - Language: Java
+   - Libraries: Stanford CoreNLP
+   - Tools : Maven, Intellij
+   - Supported Platforms: Windows, macOS, Linux
+4. References
+   - https://www.w3schools.com/java/java_files_read.asp.
+   - https://github.com/idineshkrishnan/corenlp-tutorial
+   - https://github.com/stanfordnlp/CoreNLP
+   - https://github.com/crystoll/sentiment-analysis
+   - https://stanfordnlp.github.io/CoreNLP/index.html#download
+
